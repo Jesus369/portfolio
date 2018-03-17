@@ -1,0 +1,106 @@
+@media (min-width: 1080px) {
+  /* Intro on HomeScreen Img */
+  .my_name {
+    font-size: 1.7em;
+    top: 30%;
+  }
+
+  /* Navbar on HomeScreen Image */
+  .nav {
+    top: 50%;
+  }
+  .nav li {
+  }
+
+  /* Full Homescreen Image */
+  .homescreen_img_wrap img {
+    height: 100vh;
+  }
+
+  /* AboutMe Component */
+  .aboutme_wrap {
+    flex-direction: row;
+    padding: 5em 0;
+  }
+
+  .card_image img {
+    width: 100%;
+  }
+
+  .me_image {
+    margin: 0 1em;
+    height: 19em;
+    width: 17em;
+  }
+
+  .aboutme_content {
+    margin: 0 1em;
+    width: 35%;
+  }
+
+  .aboutme_content p {
+    font-size: 1.2em;
+  }
+
+  .aboutme_content span {
+    font-size: 1.1em;
+  }
+
+  /* Projects Component */
+  .projects_container {
+    padding: 2em;
+  }
+  .project_card {
+    flex-direction: row;
+  }
+  .project_desc1 {
+    margin: 1em 1em;
+    width: 40%;
+  }
+  .project_desc2 {
+    margin: 1em 1em;
+    width: 40%;
+  }
+  .card_image {
+    margin: 1em 1em;
+    width: 40%;
+  }
+  .card_image ul li {
+    padding: 10px;
+  }
+
+  /* Skill Set Component */
+  .skillset {
+    padding: 2em;
+  }
+
+  /* Knowing */
+  .knowing td {
+    padding: 8px;
+  }
+  .knowing td:hover {
+    padding: 11px;
+    transition: padding .3s ease-in-out;
+    -moz-transition: padding .3s ease-in-out;
+    -webkit-transition: padding .3s ease-in-out;
+    -o-tranzitionpadding: .3s ease-in-out;
+  }
+
+  /* Learning */
+  .learning td {
+    padding: 8px;
+  }
+  .learning td:hover {
+    padding: 11px;
+    transition: padding .3s ease-in-out;
+    -moz-transition: padding .3s ease-in-out;
+    -webkit-transition: padding .3s ease-in-out;
+    -o-tranzitionpadding: .3s ease-in-out;
+  }
+
+  /* Footer */
+  .footer img {
+    height: 3em;
+    width: 3em;
+  }
+}

@@ -1,0 +1,251 @@
+/* Intro on HomeScreen Img */
+.my_name {
+  font-family: "Arial-Black";
+  position: absolute;
+  width: 100%;
+  height: auto;
+  padding: 1em;
+  text-align: center;
+}
+.my_name ul {
+  list-style-type: none;
+}
+.my_name li {
+  margin-top: 15px;
+}
+
+/* Navbar on HomeScreen Image */
+.nav {
+  font-family: "Arial-Black";
+  position: absolute;
+  width: 100%;
+  background-color: rgba(93, 209, 141, 0.534);
+}
+.nav ul li {
+  font-size: 1.3em;
+  padding: 1.5em;
+}
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.nav li {
+  opacity: .8;
+}
+.nav li:hover {
+  background-color: rgba(80, 182, 128, 0.336);
+  opacity: 1;
+}
+.nav a:hover {
+  color: black;
+}
+
+.linkto {
+  color: rgb(71, 71, 71);
+  outline: none;
+  text-decoration: none;
+}
+.linkto:active {
+  color: rgb(97, 53, 126);
+  outline: none;
+  text-decoration: none;
+}
+
+.homescreen_img_wrap {
+  background-color: rgb(175, 175, 175);
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+  -moz-filter: blur(1px);
+  -o-filter: blur(1px);
+  -ms-filter: blur(1px);
+}
+
+.homescreen_img_wrap img {
+  background-size: cover;
+  opacity: 0.5;
+  width: 100%;
+}
+
+/* AboutMe Component */
+.aboutme_wrap {
+  background-color: rgba(211, 211, 211, 0.692);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.aboutme_content {
+}
+
+.aboutme_content a {
+  color: rgb(247, 176, 84);
+}
+
+.aboutme_content p {
+  font-family: "Avenir-Next-Condensed";
+}
+
+.me_image {
+  border-radius: 1em;
+}
+
+/* Projects Component */
+.projects_container {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+}
+
+.project_card {
+  display: flex;
+  justify-content: center;
+}
+
+.project_desc1 {
+  background-color: rgba(136, 192, 178, 0.842);
+  box-shadow: 0 0 5px 0 rgba(42, 53, 85, 0.719);
+}
+
+.intro_to_desc {
+  list-style-type: none;
+  text-align: center;
+}
+
+.project_desc1 li {
+  font-family: "Futura";
+  font-size: 1.2em;
+}
+
+.project_desc2 {
+  background-color: rgba(38, 156, 87, 0.568);
+  box-shadow: 0 0 5px 0 rgba(1, 41, 28, 0.719);
+}
+
+.intro_to_desc {
+  list-style-type: none;
+  text-align: center;
+}
+
+.project_desc2 li {
+  font-family: "Futura";
+  font-size: 1.2em;
+}
+
+.content ul {
+  list-style-type: none;
+  margin: 0 1em;
+  padding: 0;
+}
+
+.content li {
+  font-size: 1em;
+  margin: 1em 0;
+  align-self: auto;
+}
+
+.card_image {
+  box-shadow: 0 0 9px 0 rgba(85, 73, 42, 0.596);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.card_image img {
+  border-radius: 2px;
+  margin: 0;
+}
+
+.card_image ul li {
+}
+
+.card_image ul {
+  background-color: rgb(214, 214, 214);
+  list-style-type: none;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.card_image li {
+  border-radius: 4px;
+  color: rgb(121, 120, 120);
+  display: inline-block;
+  font-family: "Avenir";
+  font-size: 15px;
+  margin-left: .2em;
+}
+
+.card_image li:hover {
+  background-color: rgb(150, 240, 202);
+  cursor: pointer;
+}
+
+/* For SkillSet Component */
+.skillset {
+  background-color: rgba(211, 211, 211, 0.692);
+  text-align: center;
+}
+
+/* Knowing */
+.knowing {
+  width: 100%;
+}
+
+.knowing th {
+  padding: .5em 0;
+}
+
+.knowing td {
+  border: 1px solid rgb(255, 169, 169);
+  display: inline-block;
+  margin: .5em 1em;
+}
+
+.knowing td:hover {
+  border: 1px solid rgba(255, 174, 0, 0.74);
+  cursor: pointer;
+}
+
+/* Learning */
+.learning {
+  width: 100%;
+}
+
+.learning th {
+  padding: .5em 0;
+}
+
+.learning td {
+  border: 1px solid rgb(255, 169, 169);
+  display: inline-block;
+  margin: .5em 1em;
+}
+
+.learning td:hover {
+  border: 1px solid rgba(255, 174, 0, 0.74);
+  cursor: pointer;
+}
+
+/* Footer */
+.footer {
+  background-color: rgba(93, 209, 141, 0.534);
+  padding: 1em;
+  width: 100%;
+  text-align: center;
+}
+
+.footer tr {
+  font-family: "Avenir-Next";
+  font-weight: 600;
+  list-style-type: none;
+  margin: 0;
+}
+.footer td {
+  display: inline-block;
+  margin: .5em 0;
+}
