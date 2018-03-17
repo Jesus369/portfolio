@@ -126,11 +126,6 @@
   box-shadow: 0 0 5px 0 rgba(1, 41, 28, 0.719);
 }
 
-.intro_to_desc {
-  list-style-type: none;
-  text-align: center;
-}
-
 .project_desc2 li {
   font-family: "Futura";
   font-size: 1.2em;
