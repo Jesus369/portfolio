@@ -49,6 +49,7 @@ export default Projects;
 const PetsBuddyCard = () => {
   return (
     <div className="project_card">
+      <PetsBuddyDesc />
       <div className="card_image">
         <img
           // onClick={this.togglePetsBuddyModal}
@@ -64,7 +65,6 @@ const PetsBuddyCard = () => {
           <li>Graphql</li>
         </ul>
       </div>
-      <PetsBuddyDesc />
     </div>
   );
 };
@@ -72,6 +72,7 @@ const PetsBuddyCard = () => {
 const PokebaseCard = () => {
   return (
     <div className="project_card">
+      <PokebaseDesc />
       <div className="card_image">
         <img
           // onClick={this.togglePokebaseModal}
@@ -86,7 +87,6 @@ const PokebaseCard = () => {
           <li>Mustache Template</li>
         </ul>
       </div>
-      <PokebaseDesc />
     </div>
   );
 };

@@ -19,7 +19,7 @@
   font-family: "Arial-Black";
   position: absolute;
   width: 100%;
-  background-color: rgba(93, 209, 141, 0.534);
+  background-color: rgba(218, 149, 103, 0.705);
 }
 .nav ul li {
   font-size: 1.3em;
@@ -37,8 +37,8 @@
   opacity: .8;
 }
 .nav li:hover {
-  background-color: rgba(80, 182, 128, 0.336);
-  opacity: 1;
+  background-color: rgba(180, 120, 80, 0.932);
+  opacity: .8;
 }
 .nav a:hover {
   color: black;
@@ -72,7 +72,8 @@
 
 /* AboutMe Component */
 .aboutme_wrap {
-  background-color: rgba(211, 211, 211, 0.692);
+  background-color: #e4e3e3b6;
+  border-bottom: 1px solid #7b7c7cb6;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -96,7 +97,7 @@
 
 /* Projects Component */
 .projects_container {
-  background-color: rgb(255, 255, 255);
+  background-color: #e4e3e3b6;
   display: flex;
   flex-direction: column;
 }
@@ -107,8 +108,6 @@
 }
 
 .project_desc1 {
-  background-color: rgba(136, 192, 178, 0.842);
-  box-shadow: 0 0 5px 0 rgba(42, 53, 85, 0.719);
 }
 
 .intro_to_desc {
@@ -122,8 +121,6 @@
 }
 
 .project_desc2 {
-  background-color: rgba(38, 156, 87, 0.568);
-  box-shadow: 0 0 5px 0 rgba(1, 41, 28, 0.719);
 }
 
 .project_desc2 li {
@@ -144,7 +141,9 @@
 }
 
 .card_image {
-  box-shadow: 0 0 9px 0 rgba(85, 73, 42, 0.596);
+  background-color: #e0e0e0;
+  box-shadow: 0 0 20px 2px rgba(20, 20, 20, 0.596);
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -160,15 +159,15 @@
 }
 
 .card_image ul {
-  background-color: rgb(214, 214, 214);
   list-style-type: none;
-  margin: 0 auto;
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .card_image li {
-  border-radius: 4px;
-  color: rgb(121, 120, 120);
+  border-radius: 2px;
+  color: black;
   display: inline-block;
   font-family: "Avenir";
   font-size: 15px;
@@ -176,7 +175,7 @@
 }
 
 .card_image li:hover {
-  background-color: rgb(150, 240, 202);
+  background-color: #d89e83;
   cursor: pointer;
 }
 
@@ -228,10 +227,15 @@
 
 /* Footer */
 .footer {
-  background-color: rgba(93, 209, 141, 0.534);
-  padding: 1em;
+  background-color: rgba(255, 255, 255, 0.829);
+  border-top: 1px solid rgb(139, 138, 138);
+  padding: 3em;
   width: 100%;
   text-align: center;
+}
+
+.footer a {
+  color: black;
 }
 
 .footer tr {
@@ -243,4 +247,67 @@
 .footer td {
   display: inline-block;
   margin: .5em 0;
+}
+
+/* SkillsSet Component */
+.skills_set_wrap {
+  background-color: rgba(255, 255, 255, 0.932);
+  border-bottom: 1px solid #7b7c7cb6;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.databases_wrap {
+}
+
+.databases_wrap label {
+  display: block;
+  font-family: "Chalkboard";
+  text-align: center;
+}
+
+.databases_wrap div {
+  margin: 2em 1em;
+}
+.databases_wrap img {
+  height: 1em;
+  width: 1em;
+}
+.databases_wrap p {
+  font-size: 15px;
+}
+
+.languages_wrap {
+}
+
+.languages_wrap label {
+  display: block;
+  font-family: "Chalkboard";
+  text-align: center;
+}
+
+.languages_wrap div {
+  margin: 2em 1em;
+}
+
+.languages_wrap p {
+  font-size: 15px;
+}
+
+.frameworks_wrap {
+}
+
+.frameworks_wrap label {
+  display: block;
+  font-family: "Chalkboard";
+  text-align: center;
+}
+
+.frameworks_wrap div {
+  margin: 2em 1em;
+}
+
+.frameworks_wrap p {
+  font-size: 15px;
 }

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 import HomeScreen from "./components/HomeScreen";
 import Projects from "./components/Projects";
+import SkillsSet from "./components/SkillsSet";
 import SkillSet from "./components/SkillSet";
 import AboutMe from "./components/AboutMe";
 import Footer from "./components/Footer";
@@ -26,10 +27,10 @@ class Home extends Component {
       <div className="homepage">
         <HomeScreen />
         <Name />
-        <AboutMe />
         <Navbar />
+        <AboutMe />
+        <SkillsSet />
         <Projects />
-        <SkillSet />
         <Footer />
       </div>
     );

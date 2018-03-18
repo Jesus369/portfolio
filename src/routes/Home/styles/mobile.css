@@ -29,8 +29,8 @@
 
   .me_image {
     margin: 1em 0;
-    height: 18em;
-    width: 16em;
+    height: 19em;
+    width: 15em;
   }
 
   .aboutme_content {
@@ -46,11 +46,42 @@
     font-size: 1.1em;
   }
 
+  /* SkillsSet Component */
+  .skills_set_wrap {
+    flex-direction: column;
+    padding: 2em;
+  }
+
+  .databases_wrap {
+    width: 100%;
+  }
+
+  .databases_wrap label {
+    font-size: 1.5em;
+  }
+
+  .languages_wrap {
+    width: 100%;
+  }
+
+  .languages_wrap label {
+    font-size: 1.5em;
+  }
+
+  .frameworks_wrap {
+    width: 100%;
+  }
+
+  .frameworks_wrap label {
+    font-size: 1.5em;
+  }
+
   /* Projects Component */
   .projects_container {
     padding: 1em;
   }
   .project_card {
+    border-bottom: 1px solid rgb(124, 124, 124);
     flex-direction: column;
   }
   .project_desc1 {
@@ -67,11 +98,6 @@
   }
   .card_image ul li {
     padding: 10px;
-  }
-
-  /* Skill Set Component */
-  .skillset {
-    padding: 2em;
   }
 
   /* Knowing */
