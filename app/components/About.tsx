@@ -26,7 +26,7 @@ const About = () => {
         ready to take a full deep dive into the world of Software Development! I
         enjoy the process of problem solving. To take the time to evaluate a
         problem and evaluating the many methods to solve it for an effective
-        solution. Let's work together to build and develop!
+        solution. Let&apos;s work together to build and develop!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10 justify-center">
