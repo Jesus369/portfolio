@@ -75,7 +75,6 @@ const ExperienceCard = ({
 const Experience = () => {
   return (
     <>
-      {/* @ts-ignore */}
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText}`}>What I have done so far</p>
         <p className={`${styles.sectionHeadText}`}>Work Experience</p>

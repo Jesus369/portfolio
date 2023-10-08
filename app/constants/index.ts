@@ -271,7 +271,7 @@ const projects = [
     ],
     image: portfolio,
     source_code_link: "https://github.com/",
-    github_link: "",
+    github_link: "https://github.com/Jesus369/portfolio",
   },
 ];
 

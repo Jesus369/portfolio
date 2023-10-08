@@ -12,7 +12,6 @@ import ProjectCard from "./cards/ProjectCard";
 const Works = () => {
   return (
     <>
-      {/* @ts-ignore */}
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>My Work</p>
         <p className={styles.sectionHeadText}>Projects.</p>
