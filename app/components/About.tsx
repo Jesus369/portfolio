@@ -14,7 +14,7 @@ import SectionWrapper from "../hoc/SectionWrapper";
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div variants={textVariant(null)}>
         <p className={styles.sectionSubText}>Introduction</p>
         <p className={styles.sectionHeadText}>Overview</p>
       </motion.div>
