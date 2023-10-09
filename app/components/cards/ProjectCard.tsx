@@ -37,7 +37,7 @@ const ProjectCard = ({
             alt="project"
             width={400}
             height={400}
-            className="w-full h-full object-cover rounded-2xl"
+            className="w-full h-full object-contain"
           />
         </div>
         <div className="absolute inset-0 flex justify-end m-3 card-img_hover gap-1">
