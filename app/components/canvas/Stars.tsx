@@ -4,13 +4,12 @@ import React, { useState, useRef, Suspense } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Points, PointMaterial, Preload } from "@react-three/drei";
 import * as random from "maath/random";
-import { ClientReferenceManifestPlugin } from "next/dist/build/webpack/plugins/flight-manifest-plugin";
 import { Group } from "three";
 
 const Stars = (props: any) => {
   const ref = useRef<Group>();
 
-  const sphere = useState(() =>
+  const [sphere] = useState(() =>
     random.inSphere(new Float32Array(5000), { radius: 1.2 })
   );
 
@@ -25,7 +24,7 @@ const Stars = (props: any) => {
       <Points ref={ref} positions={sphere} stride={3} frustumCulled {...props}>
         <PointMaterial
           transparent
-          color="#f272c8"
+          color="#2F9969"
           size={0.002}
           sizeAttenuation={true}
           depthWrite={false}

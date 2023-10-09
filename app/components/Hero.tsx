@@ -11,17 +11,17 @@ const Hero = () => {
         className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl max-auto flex flex-row items-start gap-5`}
       >
         <div className="flex flex-col justify-center items-center mt-5">
-          <div className="w-5 h-5 rounded-full bg-[#0A421C]" />
-          <div className="w-1 sm:h-80 h-40 green-gradient" />
+          <div className="w-5 h-5 rounded-full blue-yellow-gradient" />
+          <div className="w-1 sm:h-80 h-40 blue-yellow-gradient" />
         </div>
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I&apos;m <span className="text-[#0a421c]">Jesus</span>
+            Hi, I&apos;m <span className="text-[#f18f9d]">Jesus</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I am an Up and Coming developer <br className="sm:block hidden" />{" "}
-            ready to dive into Coding!
+            I am a full stack web developer <br className="sm:block hidden" />{" "}
+            ready to build.
           </p>
         </div>
       </div>

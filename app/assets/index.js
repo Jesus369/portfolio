@@ -28,16 +28,9 @@ import apollo from "./tech/apollo.png";
 import graphql from "./tech/graphql.png";
 import git from "./tech/git.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 import digitalcrafts from "./company/digitalcrafts.png";
 import jesus from "./company/jesus.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import trello from "./trello.png";
 import fetchandpost from "./fetchandpost.png";
 import portfolio from "./portfolio.png";
@@ -61,18 +54,11 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
   digitalcrafts,
   jesus,
-  tesla,
   trello,
   fetchandpost,
   portfolio,
-  carrent,
-  jobit,
-  tripguide,
   nextjs,
   pgsql,
   supabase,

@@ -1,12 +1,13 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { menu, close } from "../assets";
 import Link from "next/link";
 import Image from "next/image";
+import logoj from "../assets/logoj.png";
 
 const Navbar = () => {
   const [active, setActive] = useState<String>("");
@@ -26,7 +27,7 @@ const Navbar = () => {
           }}
         >
           <Image
-            src={logo}
+            src={logoj}
             alt="logo"
             height={50}
             width={50}

@@ -18,9 +18,9 @@ export default function Home() {
   return (
     <div className="relative z-0 bg-primary">
       <div
-        style={{
-          backgroundImage: `url(${graywave.src})`,
-        }}
+        // style={{
+        //   backgroundImage: `url(${graywave.src})`,
+        // }}
         className="h-full w-full bg-cover bg-no-repeat bg-center"
       >
         <Navbar />
@@ -33,8 +33,8 @@ export default function Home() {
       {/* <Feedbacks /> */}
       <div className="relative z-0">
         <Contact />
-        <StarsCanvas />
       </div>
+      <StarsCanvas />
     </div>
   );
 }

@@ -10,30 +10,16 @@ import {
   reactjs,
   tailwind,
   nodejs,
-  git,
-  meta,
-  starbucks,
   jesus,
   digitalcrafts,
-  tesla,
-  shopify,
   trello,
   fetchandpost,
   portfolio,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   nextjs,
   pgsql,
   supabase,
   firebase,
-  stepzen,
-  sanity,
-  metamask,
-  thirdweb,
-  apollo,
-  graphql,
 } from "../assets";
 
 export const navLinks = [
@@ -210,7 +196,7 @@ const projects = [
   {
     name: "Trello",
     description:
-      "A clone of Trello that allows you stay up to date with your tasks! GPT will assist in notifying how many tasks within each board you have. You are freely able to move the boards, and transfer over cards from one board to another. Powered by Appwrite, a task can be created, updated, and deleted from the database.",
+      "A clone of Trello that allows you stay up to date with your tasks! Freely organize your boards and todos as you see fit.",
     tags: [
       {
         name: "NextJS 13",
@@ -254,7 +240,7 @@ const projects = [
   {
     name: "Portfolio",
     description:
-      "Welcome to my Portfolio! A learning experience where I dived into learning animating motion with Framer-Motion, and Three JS alongside with other repos such as react-three/fiber, react-three/drei, and React Vertical Timeline",
+      "My portfolio. A learning experience where I first dive into Framer-Motion, Three JS, react-three/fiber, react-three/drei, and React Vertical Timeline",
     tags: [
       {
         name: "NextJS 13",
