@@ -22,10 +22,9 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         variants={fadeIn("", "", 0.1, 1)}
       >
-        How do ya do! I'm Jesus, but you can call me Jesus! I'm a full stack
-        developer with 5 years of experience. I love developing cool responsive
-        and fully funcitonal websites. My stack poison of choice is React,
-        Typescript, Node, PostgtresSQL, and GraphQL.
+        Full stack developer with 5 years of experience. I love developing cool
+        responsive and fully funcitonal websites. My stack poison of choice is
+        React, Typescript, Node, PostgtresSQL, and GraphQL.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10 justify-center">
