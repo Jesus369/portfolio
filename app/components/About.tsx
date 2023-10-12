@@ -22,11 +22,10 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         variants={fadeIn("", "", 0.1, 1)}
       >
-        I am an on and off Web Developer with 5 years of experience. Excited and
-        ready to take a full deep dive into the world of Software Development! I
-        enjoy the process of problem solving. To take the time to evaluate a
-        problem and evaluating the many methods to solve it for an effective
-        solution. Let&apos;s work together to build and develop!
+        How do ya do! I'm Jesus, but you can call me Jesus! I'm a full stack
+        developer with 5 years of experience. I love developing cool responsive
+        and fully funcitonal websites. My stack poison of choice is React,
+        Typescript, Node, PostgtresSQL, and GraphQL.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10 justify-center">
